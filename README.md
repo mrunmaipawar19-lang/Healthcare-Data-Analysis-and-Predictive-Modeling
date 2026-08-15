@@ -1,25 +1,75 @@
-# Healthcare Data Insights and Predictive Modeling
+# Healthcare Data Analysis and Predictive Modeling
 
-## Objective
-Predict early hospital readmission (within 30 days) among diabetic patients using healthcare data.
+## Overview
+
+This project focuses on analyzing healthcare data and developing machine learning models to predict hospital readmissions.
+
+The project includes:
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Machine Learning Models
+- Performance Evaluation
+
+---
 
 ## Dataset
-Diabetes 130-US Hospitals for Years 1999-2008 — UCI Machine Learning Repository.
 
-## Workflow
-- Exploratory Data Analysis
-- Missing-value handling
-- Categorical encoding
-- Numerical scaling
-- Stratified train/test split
-- SMOTE on training data
+Healthcare Readmission Dataset
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## Machine Learning Models
+
 - Logistic Regression
-- Random Forest
-- Accuracy, Precision, Recall, F1, ROC-AUC
-- Confusion matrices and ROC curves
+- Random Forest Classifier
 
-## Run
-Open `Healthcare_Readmission_Analysis.ipynb` in Google Colab or Jupyter and run all cells. The notebook installs required packages and retrieves the dataset through `ucimlrepo`.
+---
 
-## Source
-UCI Machine Learning Repository, dataset ID 296.
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC Curve
+- AUC Score
+- Confusion Matrix
+
+---
+
+## Results
+
+The notebook compares Logistic Regression and Random Forest models using ROC curves and confusion matrices to evaluate predictive performance.
+
+---
+
+## Project Structure
+
+```
+Healthcare_Readmission_Analysis.ipynb
+Research_Report.pdf
+Project_Action_Plan.docx
+Healthcare_Project_Presentation.pptx
+README.md
+```
+
+---
+
+## Author
+
+Mrunmai Pawar
+
+Internship Project
